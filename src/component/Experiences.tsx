@@ -22,7 +22,7 @@ function Experiences() {
       <Box p={isPhoneScreen ? "8px" : 0}>
         <Typography
           mt={6}
-          fontSize="70px"
+          fontSize="60px"
           // textAlign="center"
           // borderBottom="1px solid white"
           // p={1}
