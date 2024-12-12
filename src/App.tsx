@@ -97,7 +97,10 @@ function App() {
                   500,
                 ]}
                 repeat={Infinity}
-                style={{ fontSize: "80px", display: "inline-block" }}
+                style={{
+                  fontSize: isPhoneScreen ? "40px" : "80px",
+                  display: "inline-block",
+                }}
               />{" "}
               <Typography
               //  fontFamily="source-sans-3"
