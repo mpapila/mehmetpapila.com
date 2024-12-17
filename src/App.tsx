@@ -48,7 +48,7 @@ function App() {
           <Box
             id="home"
             textAlign="center"
-            height="100vh"
+            height="100dvh"
             display="flex"
             alignItems="center"
             justifyContent="space-between"
