@@ -78,7 +78,13 @@ function App() {
               )}
             </Box>
             <Box>
-              <Typography variant="h4"> Hello, I am </Typography>
+              <Typography
+                // variant="h4"
+                fontSize={isPhoneScreen ? "1.5rem" : "2.125rem"}
+              >
+                {" "}
+                Hello, I am{" "}
+              </Typography>
               <TypeAnimation
                 sequence={[
                   "Mehmet Papila",
