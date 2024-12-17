@@ -37,7 +37,7 @@ function App() {
       )}
       <Box
         overflow="scroll"
-        height="100vh"
+        height="100dvh"
         sx={{
           width: !isPhoneScreen ? "70%" : "100%",
           // p: "5px 5px 0 5px",
